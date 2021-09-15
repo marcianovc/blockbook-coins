@@ -2,8 +2,8 @@ package aryacoin
 
 import (
 	"encoding/json"
-	"github.com/mosqueiro/blockbook-coins/bchain"
-	"github.com/mosqueiro/blockbook-coins/bchain/coins/btc"
+	"github.com/marcianovc/blockbook-coins/bchain"
+	"github.com/marcianovc/blockbook-coins/bchain/coins/btc"
 
 	"github.com/golang/glog"
 	"github.com/juju/errors"

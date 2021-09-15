@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"github.com/mosqueiro/blockbook-coins/bchain"
+	"github.com/marcianovc/blockbook-coins/bchain"
 	"math"
 	"net/http"
 	"strconv"

@@ -17,10 +17,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mosqueiro/blockbook-coins/api"
-	"github.com/mosqueiro/blockbook-coins/bchain"
-	"github.com/mosqueiro/blockbook-coins/common"
-	"github.com/mosqueiro/blockbook-coins/db"
+	"github.com/marcianovc/blockbook-coins/api"
+	"github.com/marcianovc/blockbook-coins/bchain"
+	"github.com/marcianovc/blockbook-coins/common"
+	"github.com/marcianovc/blockbook-coins/db"
 
 	"github.com/golang/glog"
 )

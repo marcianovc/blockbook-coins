@@ -1,4 +1,4 @@
-module github.com/mosqueiro/blockbook-coins
+module github.com/marcianovc/blockbook-coins
 
 go 1.13
 

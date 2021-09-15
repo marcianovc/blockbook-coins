@@ -2,9 +2,9 @@ package colossus
 
 import (
 	"bytes"
-	"github.com/mosqueiro/blockbook-coins/bchain"
-	"github.com/mosqueiro/blockbook-coins/bchain/coins/btc"
-	"github.com/mosqueiro/blockbook-coins/bchain/coins/utils"
+	"github.com/marcianovc/blockbook-coins/bchain"
+	"github.com/marcianovc/blockbook-coins/bchain/coins/btc"
+	"github.com/marcianovc/blockbook-coins/bchain/coins/utils"
 	"io"
 
 	"encoding/hex"

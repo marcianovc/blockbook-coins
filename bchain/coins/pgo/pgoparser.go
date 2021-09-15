@@ -3,8 +3,8 @@ package pgo
 import (
 	"encoding/json"
 	"github.com/golang/glog"
-	"github.com/mosqueiro/blockbook-coins/bchain"
-	"github.com/mosqueiro/blockbook-coins/bchain/coins/btc"
+	"github.com/marcianovc/blockbook-coins/bchain"
+	"github.com/marcianovc/blockbook-coins/bchain/coins/btc"
 	"github.com/juju/errors"
 )
 

@@ -3,8 +3,8 @@ package db
 import (
 	"bytes"
 	"encoding/hex"
-	"github.com/mosqueiro/blockbook-coins/bchain"
-	"github.com/mosqueiro/blockbook-coins/bchain/coins/eth"
+	"github.com/marcianovc/blockbook-coins/bchain"
+	"github.com/marcianovc/blockbook-coins/bchain/coins/eth"
 
 	vlq "github.com/bsm/go-vlq"
 	"github.com/golang/glog"

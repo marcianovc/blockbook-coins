@@ -2,7 +2,7 @@ package dbtestdata
 
 import (
 	"encoding/hex"
-	"github.com/mosqueiro/blockbook-coins/bchain"
+	"github.com/marcianovc/blockbook-coins/bchain"
 	"math/big"
 
 	"github.com/golang/glog"

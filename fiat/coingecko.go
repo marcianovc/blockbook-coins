@@ -3,7 +3,7 @@ package fiat
 import (
 	"encoding/json"
 	"errors"
-	"github.com/mosqueiro/blockbook-coins/db"
+	"github.com/marcianovc/blockbook-coins/db"
 	"io/ioutil"
 	"net/http"
 	"strconv"

@@ -3,8 +3,8 @@ UPDATE_VENDOR ?= 1
 VERSION ?= devel
 GITCOMMIT = $(shell cd /src && git describe --always --dirty)
 BUILDTIME = $(shell date --iso-8601=seconds)
-LDFLAGS := -X github.com/mosqueiro/blockbook-coins/common.version=$(VERSION) -X github.com/mosqueiro/blockbook-coins/common.gitcommit=$(GITCOMMIT) -X github.com/mosqueiro/blockbook-coins/common.buildtime=$(BUILDTIME)
-BLOCKBOOK_BASE := $(GOPATH)/src/github.com/mosqueiro
+LDFLAGS := -X github.com/marcianovc/blockbook-coins/common.version=$(VERSION) -X github.com/marcianovc/blockbook-coins/common.gitcommit=$(GITCOMMIT) -X github.com/marcianovc/blockbook-coins/common.buildtime=$(BUILDTIME)
+BLOCKBOOK_BASE := $(GOPATH)/src/github.com/marcianovc
 BLOCKBOOK_SRC := $(BLOCKBOOK_BASE)/blockbook-coins
 ARGS ?=
 
@@ -25,13 +25,13 @@ tools:
 	chown $(PACKAGER) /out/{ldb,sst_dump}
 
 test: prepare-sources generate-data
-	cd $(BLOCKBOOK_SRC) && go test -tags unittest `go list ./... | grep -vP '^github.com/mosqueiro/blockbook-coins/(contrib|tests)'` $(ARGS)
+	cd $(BLOCKBOOK_SRC) && go test -tags unittest `go list ./... | grep -vP '^github.com/marcianovc/blockbook-coins/(contrib|tests)'` $(ARGS)
 
 test-integration: prepare-sources generate-data
 	cd $(BLOCKBOOK_SRC) && go test -tags integration `go list blockbook/tests/...` $(ARGS)
 
 test-all: prepare-sources generate-data
-	cd $(BLOCKBOOK_SRC) && go test -tags 'unittest integration' `go list ./... | grep -v '^github.com/mosqueiro/blockbook-coins/contrib'` $(ARGS)
+	cd $(BLOCKBOOK_SRC) && go test -tags 'unittest integration' `go list ./... | grep -v '^github.com/marcianovc/blockbook-coins/contrib'` $(ARGS)
 
 prepare-sources:
 	@ [ -n "`ls /src 2> /dev/null`" ] || (echo "/src doesn't exist or is empty" 1>&2 && exit 1)

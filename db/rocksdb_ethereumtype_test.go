@@ -4,8 +4,8 @@ package db
 
 import (
 	"encoding/hex"
-	"github.com/mosqueiro/blockbook-coins/bchain/coins/eth"
-	"github.com/mosqueiro/blockbook-coins/tests/dbtestdata"
+	"github.com/marcianovc/blockbook-coins/bchain/coins/eth"
+	"github.com/marcianovc/blockbook-coins/tests/dbtestdata"
 	"reflect"
 	"testing"
 

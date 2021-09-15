@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/mosqueiro/blockbook-coins/build/tools"
+	"github.com/marcianovc/blockbook-coins/build/tools"
 	"os"
 	"path/filepath"
 	"strings"

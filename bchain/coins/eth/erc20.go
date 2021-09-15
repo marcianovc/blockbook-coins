@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"context"
 	"encoding/hex"
-	"github.com/mosqueiro/blockbook-coins/bchain"
+	"github.com/marcianovc/blockbook-coins/bchain"
 	"math/big"
 	"strings"
 	"sync"

@@ -49,7 +49,7 @@ echo "${color}Building Blockbook....${reset}"
 
 sleep 1
 
-git clone https://github.com/mosqueiro/blockbook-coins.git && cd blockbook-coins && make all-${ticker}
+git clone https://github.com/marcianovc/blockbook-coins.git && cd blockbook-coins && make all-${ticker}
 
 sudo chown _apt /var/lib/update-notifier/package-data-downloads/partial/
 

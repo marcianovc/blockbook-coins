@@ -2,9 +2,9 @@ package ravencoin
 
 import (
 	"bytes"
-	"github.com/mosqueiro/blockbook-coins/bchain"
-	"github.com/mosqueiro/blockbook-coins/bchain/coins/btc"
-	"github.com/mosqueiro/blockbook-coins/bchain/coins/utils"
+	"github.com/marcianovc/blockbook-coins/bchain"
+	"github.com/marcianovc/blockbook-coins/bchain/coins/btc"
+	"github.com/marcianovc/blockbook-coins/bchain/coins/utils"
 
 	"github.com/martinboehm/btcd/wire"
 	"github.com/martinboehm/btcutil/chaincfg"

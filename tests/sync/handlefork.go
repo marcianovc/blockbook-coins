@@ -4,8 +4,8 @@ package sync
 
 import (
 	"fmt"
-	"github.com/mosqueiro/blockbook-coins/bchain"
-	"github.com/mosqueiro/blockbook-coins/db"
+	"github.com/marcianovc/blockbook-coins/bchain"
+	"github.com/marcianovc/blockbook-coins/db"
 	"math/big"
 	"os"
 	"reflect"

@@ -1,7 +1,7 @@
 package db
 
 import (
-	"github.com/mosqueiro/blockbook-coins/bchain"
+	"github.com/marcianovc/blockbook-coins/bchain"
 	"time"
 
 	"github.com/golang/glog"

@@ -1,8 +1,8 @@
 package db
 
 import (
-	"github.com/mosqueiro/blockbook-coins/bchain"
-	"github.com/mosqueiro/blockbook-coins/common"
+	"github.com/marcianovc/blockbook-coins/bchain"
+	"github.com/marcianovc/blockbook-coins/common"
 	"os"
 	"sync"
 	"sync/atomic"

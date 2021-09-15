@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/mosqueiro/blockbook-coins/db"
+	"github.com/marcianovc/blockbook-coins/db"
 	"reflect"
 	"time"
 
