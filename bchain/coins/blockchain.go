@@ -6,6 +6,14 @@ import (
 	"fmt"
 	"github.com/mosqueiro/blockbook-coins/bchain/coins/telos"
 	"github.com/mosqueiro/blockbook-coins/bchain/coins/ksoc"
+	"github.com/mosqueiro/blockbook-coins/bchain/coins/pac"
+	"github.com/mosqueiro/blockbook-coins/bchain/coins/mxt"
+	"github.com/mosqueiro/blockbook-coins/bchain/coins/zyon"
+	"github.com/mosqueiro/blockbook-coins/bchain/coins/sove"
+	"github.com/mosqueiro/blockbook-coins/bchain/coins/sch"
+	"github.com/mosqueiro/blockbook-coins/bchain/coins/peps"
+	"github.com/mosqueiro/blockbook-coins/bchain/coins/pirate"
+	"github.com/mosqueiro/blockbook-coins/bchain/coins/pgo"
 	"io/ioutil"
 	"math/big"
 	"reflect"
@@ -65,6 +73,14 @@ func init() {
 	BlockChainFactories["Index"] = idx.NewIdxRPC
 	BlockChainFactories["Telos"] = telos.NewTelosRPC
 	BlockChainFactories["Ksoc"] = ksoc.NewKsocRPC
+	BlockChainFactories["PAC"] = pac.NewPACRPC
+	BlockChainFactories["Mxt"] = mxt.NewMxtRPC
+	BlockChainFactories["Zyon"] = zyon.NewZyonRPC
+	BlockChainFactories["Sove"] = sove.NewSoveRPC
+	BlockChainFactories["Sch"] = sch.NewSchRPC
+	BlockChainFactories["Peps"] = peps.NewPepsRPC
+	BlockChainFactories["Pirate"] = pirate.NewPirateRPC
+	BlockChainFactories["Pgo"] = pgo.NewPgoRPC
 }
 
 // GetCoinNameFromConfig gets coin name and coin shortcut from config file
