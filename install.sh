@@ -6,7 +6,7 @@ color=`tput setaf 2`
 
 reset=`tput sgr0`
 
-echo "${color}ZCore Blockbook Installer${reset}"
+echo "${color}MarteX Blockbook Installer${reset}"
 
 sleep 1
 

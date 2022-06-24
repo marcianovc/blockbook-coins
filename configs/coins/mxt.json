@@ -20,10 +20,10 @@
   },
   "backend": {
     "package_name": "backend-mxt",
-    "package_revision": "zcore-2",
+    "package_revision": "martex",
     "system_user": "mxt",
-    "version": "5.0.2.2",
-    "binary_url": "https://github.com/martexcoin/martexcoin/releases/download/v5.0.2.2/martex-5.0.2.2-x86_64-linux-gnu.tar.gz",
+    "version": "5.0.2.5",
+    "binary_url": "https://github.com/martexcoin/martexcoin/releases/download/v5.0.2.5/martex-5.0.2.5-x86_64-linux-gnu.tar.gz",
     "extract_command": "tar -C backend --strip 1 -xf",
     "exclude_files": [
       "bin/martex-qt"
